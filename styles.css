@@ -1,7 +1,9 @@
+/* styles.css */
+
 body {
     font-family: Arial, sans-serif;
     background-color: #121212;
-    color: #ffffff;
+    color: #989090;
 }
 
 header.jumbotron {
@@ -17,6 +19,21 @@ section {
 
 .card {
     margin-bottom: 20px;
+    height: 100%; /* Ensures all cards have the same height */
+}
+
+.card-img-top {
+    height: 200px; /* Set the height for all card images */
+    object-fit: cover; /* Maintain aspect ratio and cover the container */
+}
+
+.card-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+.card-text {
+    font-size: 1rem;
 }
 
 @media (max-width: 768px) {
